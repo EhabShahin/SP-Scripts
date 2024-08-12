@@ -1,0 +1,1 @@
+﻿install-Module -Name PnP.PowerShell -force

@@ -1,0 +1,41 @@
+<values>
+  <!-- Farm specific and should be changed per build -->
+  <SQLServerInstance comment="SQL DB Alias">SQL01\SPSQLSERVER</SQLServerInstance>
+  <DatabaseInstance comment="SQL DB Instance">SQLSPQA2019</DatabaseInstance>
+  <centralAdminPort comment="Central Admin Port">1234</centralAdminPort>
+  <FarmName comment="SharePoint Base Farm name">SP_2019_QA</FarmName>
+  <FarmUserName comment="SP Farm User">domain\SRVSQFRM</FarmUserName>
+  <AdminUser comment="Setup or Site Collection Admin user">discovery\SRVSQSet</AdminUser>
+  <SPAppPoolUsername comment="SP App Pool User">domain\SRVSQApp</SPAppPoolUsername>
+  <!-- <SPDSAUsername comment="SP DSA Username">domain\dsa</SPDSAUsername> -->
+  <SPSearchUsername comment="Seach Content Username">domain\SRVSQSrc</SPSearchUsername>
+  <BaseURL comment="Base/Root URL">https://sharepointqa.domain.com</BaseURL>
+  <Workflowhost comment="Workflow Host including port">http://blah.domain.co.za:12291</Workflowhost>
+  <!-- Advanced Options -->
+  <NewFarm comment="New Farm Build">true</NewFarm>
+  <JoinFarm comment="New Farm Build">true</JoinFarm>
+  <causehost comment="Central Admin use Hostname">true</causehost>
+  <cahostname comment="Central Admin hostname override">APP0001.discovery.holdings.co.za</cahostname>
+  <disableloopback comment="Disable Loopback Check">true</disableloopback>
+  <provsqlalias comment="Provision SQL  Alias">true</provsqlalias>
+  <Localserverrole comment="Local Server Role">Custom</Localserverrole>
+  <CreateServiceApps comment="Create Service Apps">true</CreateServiceApps>
+  <CreateWorkFlow comment="Provision Workflow farm">false</CreateWorkFlow>
+  <ProvisionWebApp comment="Provision Web App">true</ProvisionWebApp>
+  <ProvisionSites comment="Provision Root site and Content Hub">false</ProvisionSites>
+  <ProvisionProjSA comment="Provision Project Service App">true</ProvisionProjSA>
+  <ProvisionPWA comment="Provision PWA or remount">false</ProvisionPWA>
+  <ProvisionSearch comment="Provision Search">false</ProvisionSearch>
+  <RegisterWF comment="Register workflow to PWA URL">false</RegisterWF>
+  <WebAppSSLPort comment="Web App Port">443</WebAppSSLPort>
+  <SPAppPoolName comment="SharePoint App Pool Name">SharePoint App Pool Service</SPAppPoolName>
+  <SPWebPoolName comment="SharePoint Web Pool Name">SharePoint Web Pool Service</SPWebPoolName>
+  <SPSearchAppPoolName comment="SharePoint Search Pool Name">SharePoint Search App Pool Service</SPSearchAppPoolName>
+  <SPWebAppDisplayName comment="SharePoint Web App Display Name">SharePoint Portal</SPWebAppDisplayName>
+  <PWADBnameSuffix comment="PWA DB Name Suffix">_PWA_ProjectWebApp_DB</PWADBnameSuffix>
+  <SPwssContentDBnameSuffix comment="SharePoint Content DB Name Suffix">_Main_WSS_Content_DB</SPwssContentDBnameSuffix>
+  <pwaURLSuffix comment="PWA URL -">/sites/pwa</pwaURLSuffix>
+  <ContentHubURLSuffix comment="Content Hub URL">/sites/chub</ContentHubURLSuffix>
+  <SecureStoreTargetAppName comment="Secure Store Target Name">ProjectServerApplication</SecureStoreTargetAppName>
+  <SecureStoreTAemail comment="Secure Store email">noreply@nowhere.com</SecureStoreTAemail>
+</values>
